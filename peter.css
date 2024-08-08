@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.image-container{
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 500px;
+    border-radius: inherit;
+}.image-container div{
+    margin:  15px;
+    border: #ccc solid;
+    border-radius: 20px;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+.list{
+    
+    box-shadow: 3PX 4px white;
+    text-align: center;
+}
