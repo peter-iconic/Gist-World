@@ -1,32 +1,63 @@
-*{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-}
 body{
-    background-image: url('photos/ichipiondo.jpg');
+
 }
-.image-container{
+.main-container{
+   
+   
+}
+.header{
+    
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+.navelist {
+  
+}
+ul{
+    list-style: none;
     display: flex;
 }
-img{
-    width: 300px;
-    height: 500px;
-    border-radius: inherit;
-}.image-container div{
-    margin:  15px;
-    border: #ccc solid;
-    border-radius: 20px;
-}
 li{
-    display: inline;
-    margin: 20px;
+    margin: auto;
 }
-.list{
-    
-    box-shadow: 3PX 4px white;
-    text-align: center;
+a{
+    text-decoration: none;
 }
-h1, h2, h3{
-    color: white;
+input[type='search']{
+    border-radius: 10px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+p{
+    color:white
+}
+.gist-container{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+input[type='text']{
+    width: 350px;
+    padding: 15px;
+}
+input[type='submit']{
+    margin-left: 10px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.post-container{
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+   
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
 }
